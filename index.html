@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome and google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;600&family=Roboto+Condensed:ital,wght@0,300;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Document</title>
-</head>
-<body>
-  <script src="assets/js/script.js"></script> 
-</body>
+  </head>
+  <body>
+    <div class="game-area">
+    <h1 class="heading">Musical Quiz</h1>
+    <div class="question-area">
+      <span class="question"> What are the names of the Schuyler sisters in 'Hamilton'?</span>
+      <br>
+      <span class="answer"> A: Betty, Angelina & Sue</span>
+      <br>
+      <span class="answer"> B: Angelica, Elizabeth & Peggy</span>
+      <br>
+      <span class="answer"> C: Sandra, Sheila & Catherine</span>
+      <br>
+      <span class="answer"> D: Lucy, Erin & Pamela</span>
+    </div>
+      <div class="button-area">
+        <button data type= "a" class="btn btn--big btn--green">
+            a
+          <i class="fa-solid fa-a"></i>
+        </button>
+        <button data type= "b"  class="btn btn--big btn--blue">
+            b
+          <i class="fa-solid fa-b"></i>
+        </button>
+        <button data type= "c" class="btn btn--big btn--yellow">
+            c
+          <i class="fa-solid fa-c"></i>
+        </button>
+        <button data type= "d" class="btn btn--big btn--red">
+            d
+          <i class="fa-solid fa-d"></i>
+        </button>
+      </div>
+      <button data type = "submit" class="btn btn--gray">Submit</button>
+    
+    <div class="score-area">
+      <p class="scores">Correct Answer<span id="score"> 0</span></p>
+      <p class="scores">Incorrect Answer <span id="incorrect"> 0</span></p>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
