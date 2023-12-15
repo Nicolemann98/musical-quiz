@@ -230,7 +230,8 @@ body {
     }
 }
 
-@media (max-width: 320px) {
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
     .game-area {
         height: 70vh;
     }
@@ -247,5 +248,58 @@ body {
     .question-area {
         padding: 10px 0;
     }
+}
 
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    .controls-area {
+        width: 100%;
+    }
+
+    .btn--big {
+        margin: 0 10px;
+        padding: 5px;
+        border: 5px solid;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    .btn--big::after {
+        font-size: 0.6rem;
+        left: -0.7rem;
+    }
+
+    .question-area {
+        padding: 10% 0;
+        width: 100%;
+    }
+
+    .question-area span {
+        padding: 0;
+    }
+
+    .answer-message {
+        display: block;
+    }
+
+    #answer-box {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .score-area {
+        width: 100%;
+    }
+
+    .scores {
+        margin: 0.5em auto;
+        display: block;
+        padding: 5px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
 }
