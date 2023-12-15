@@ -11,6 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
             const buttonType = this.getAttribute("data-type");
             if (buttonType === "A" || buttonType === "B" || buttonType === "C" || buttonType === "D") {
                 checkAnswer(buttonType, questionNumber);
+                if (questionNumber === quizQuestions.length - 1) {
+                    setFinalText();
+                }
                 questionNumber++;
                 displayQuestion(questionNumber);
             }
@@ -50,6 +53,21 @@ function incrementScore() {
 function incrementWrongAnswer() {
     let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
+}
+
+function setFinalText() {
+    let finalScore = document.getElementById("score").innerText;
+    let finalIncorrect = document.getElementById("incorrect").innerText;
+    let finalText = `Congratulations! You got a final score of ${finalScore} and got ${finalIncorrect} incorrect.`;
+    document.getElementById("question-text").innerHTML = finalText;
+    document.getElementById("answer-a-text").innerHTML = "";
+    document.getElementById("answer-b-text").innerHTML = "";
+    document.getElementById("answer-c-text").innerHTML = "";
+    document.getElementById("answer-d-text").innerHTML = "";
+    document.getElementById("ans-btn-a").disabled = true;
+    document.getElementById("ans-btn-b").disabled = true;
+    document.getElementById("ans-btn-c").disabled = true;
+    document.getElementById("ans-btn-d").disabled = true;
 }
 
 // Questions for trivia - sourced from watercoolertrivia.com

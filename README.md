@@ -1,39 +1,71 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Musical Quiz
+This site has been created as a means of testing users' knowledge on Broadwat and West End Musicals through trivia questions
 
-Welcome,
+![Am I responsive screenshot]()
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+*Navigation
 
-## Codeanywhere Reminders
+    * The site is simple to navigate, with the questions refreshing after the user has inputted the correct (or incorrect) answer and clicked on the OK button to move onto the next
+    * There is a counter to keep track of the number of correct and incorrect answers provided
+    * The layout of the navigation is fairly simple and should be easy for users to use
+    * The font contrasts the background colour so is easy to read
+    * In order to start again, the user simply needs to refresh the page
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+*The Header
+    This section is kept simple as the quiz is interactive, in order to not complicate the code
+    The head of the HTML code contains the basic instructions and meta tags 
 
-`python3 -m http.server`
+*The question section
+    This was fairly difficult to build due to the number of questions required, each had to be targeted by the JavaScript in order for the user to be able to move on to the next question
+*The Footer section
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+    
+## Testing
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+*I confirmed that the site works within the IDE and when deployed onto the browser
 
-`http_server`
+*I confirmed that the page is repsonsive and functions on different screen sizes using DevTools device bar
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+*I checked that the text is readable across all pages, and that is would be easy for users to understand
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+*I have confirmed that the quiz works on each question by inputting the correct and an incorrect answer into each question
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Bugs
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Validator Testing
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+*HTML
+    *No errors were found in my html code after passing it through the W3C validator
 
----
+*CSS
+    *No errors were found in passing my css code after passing it through the W3C validator
 
-Happy coding!
+*Accessibility
+    *I confirmed that there was sufficient contrast between the background colour and font colour to make it easy to read
+    *I ran the code through lighthouse in devtools
+  
+! [devtools lighthouse rating] (assets/images/accessibility.png)
+
+### Unfixed bugs
+
+No unfixed bugs found
+
+## Deployment
+
+*The site was deployed to GitHub pages by:
+    *Going to the GitHub repository and accessing 'Settings'
+    *Selecting the 'Master Branch' in the source section dropdown
+
+## Credits
+
+### Content
+*The questions used for this quiz have been sourced from watercoolertrivia.com
+
+*Walkthrough for structure for the buttons and basic style rules from <https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/tree/master/05-tidying-up/01-a-few-last-things>
+
+### Media
+
+*All images were taken from Pexels - <https://www.pexels.com/>
