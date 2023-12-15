@@ -23,32 +23,33 @@
   </head>
   <body>
     <div class="game-area">
-        <button aria-label="Start the quiz" id="start-button">
-            Begin
-        </button>
 
     <h1 class="heading"> Musical Quiz </h1>
     <div class="question-area">
-        <div class="question-area"></div>
+        <p id="question-text"></p> 
+        <p id="answer-a-text"></p>
+        <p id="answer-b-text"></p>
+        <p id="answer-c-text"></p>
+        <p id="answer-d-text"></p>
+    </div>
       <div class="button-area">
-        <button data type= "a" class="btn btn--big btn--green">
+        <button data-type= "A" class="btn btn--big btn--green">
             a
           <i class="fa-solid fa-a"></i>
         </button>
-        <button data type= "b"  class="btn btn--big btn--blue">
+        <button data-type= "B"  class="btn btn--big btn--blue">
             b
           <i class="fa-solid fa-b"></i>
         </button>
-        <button data type= "c" class="btn btn--big btn--yellow">
+        <button data-type= "C" class="btn btn--big btn--yellow">
             c
           <i class="fa-solid fa-c"></i>
         </button>
-        <button data type= "d" class="btn btn--big btn--red">
+        <button data-type= "D" class="btn btn--big btn--red">
             d
           <i class="fa-solid fa-d"></i>
         </button>
       </div>
-      <button data type = "submit" class="btn btn--gray">Submit</button>
     
     <div class="score-area">
       <p class="scores">Correct Answer<span id="score"> 0</span></p>
