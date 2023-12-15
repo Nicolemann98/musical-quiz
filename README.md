@@ -77,6 +77,8 @@ No unfixed bugs found
 *Going to the GitHub repository and accessing 'Settings'
 \*Selecting the 'Master Branch' in the source section dropdown
 
+The live link - <https://nicolemann98.github.io/musical-quiz/>
+
 ## Credits
 
 ### Content
