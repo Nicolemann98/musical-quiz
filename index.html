@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An interactive trivia site to test your musical knowledge">
+    <meta name="keywords" content="musicals, quiz, trivia, broadway, west end, music" >
     <!-- font awesome and google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,22 +14,22 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Favicon-->
+    <link rel="apple-touch-icon"
+    sizes="180x180"
+     href="assets/Favicon/music note.jpg">
     <title>Document</title>
   </head>
   <body>
     <div class="game-area">
-    <h1 class="heading">Musical Quiz</h1>
+        <button aria-label="Start the quiz" id="start-button">
+            Begin
+        </button>
+
+    <h1 class="heading"> Musical Quiz </h1>
     <div class="question-area">
-      <span class="question"> What are the names of the Schuyler sisters in 'Hamilton'?</span>
-      <br>
-      <span class="answer"> A: Betty, Angelina & Sue</span>
-      <br>
-      <span class="answer"> B: Angelica, Elizabeth & Peggy</span>
-      <br>
-      <span class="answer"> C: Sandra, Sheila & Catherine</span>
-      <br>
-      <span class="answer"> D: Lucy, Erin & Pamela</span>
-    </div>
+        <div class="question-area"></div>
       <div class="button-area">
         <button data type= "a" class="btn btn--big btn--green">
             a
