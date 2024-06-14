@@ -43,6 +43,8 @@ I have included a colour coded score counter, this will keep track of how many q
 
 \*I have confirmed that the quiz works on each question by inputting the correct and an incorrect answer into each question
 
+\* I have completed the quiz with the console open and received no errors
+
 ## Bugs
 
 \*Upon deployment I noticed a few issues with the title not loading on the browser tab and the buttons had duplicated the letter inside it
