@@ -1,4 +1,5 @@
 //DOM loads before running game
+/*jshint esversion: 6 */
 
 document.addEventListener("DOMContentLoaded", function () {
     let questionNumber = 0;
@@ -15,7 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     setFinalText();
                 }
                 questionNumber++;
-                displayQuestion(questionNumber);
+                if (questionNumber >= buttons.length){
+                    displayQuestion(questionNumber);
+                }
             }
         });
     }

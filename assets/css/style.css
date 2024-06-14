@@ -34,7 +34,7 @@ body {
     width: 80%;
     font-size: 2rem;
     margin: auto;
-    padding: 50px 0;
+    padding: 50px 0px;
 }
 
 .question-area span {
@@ -244,9 +244,6 @@ body {
     .btn--big {
         margin: 10px 10px;
         font-size: 10px;
-
-    .question-area {
-        padding: 10px 0;
     }
 }
 
