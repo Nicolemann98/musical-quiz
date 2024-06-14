@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     setFinalText();
                 }
                 questionNumber++;
-                if (questionNumber >= buttons.length){
+                if (questionNumber < quizQuestions.length){
                     displayQuestion(questionNumber);
                 }
             }
