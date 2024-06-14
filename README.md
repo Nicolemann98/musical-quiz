@@ -52,16 +52,21 @@ I have included a colour coded score counter, this will keep track of how many q
 *HTML
 *No errors were found in my html code after passing it through the W3C validator
 
+![image](https://github.com/Nicolemann98/musical-quiz/assets/144236128/901f5f76-18a5-4db6-bb43-a5bbf5204fe0)
+
 *CSS
 *No errors were found in passing my css code after passing it through the W3C validator
 
+![image](https://github.com/Nicolemann98/musical-quiz/assets/144236128/4450438f-b9f3-40c8-bc67-2d4aa059a868)
+
 *JavaScript
 *No errors were found in passing my code through the official jshint validator
+
 The following metrics were returned:
-There are 8 functions in this file.
+`There are 7 functions in this file.
 Function with the largest signature take 2 arguments, while the median is 0.
 Largest function has 12 statements in it, while the median is 5.
-The most complex function has a cyclomatic complexity value of 6 while the median is 1.
+The most complex function has a cyclomatic complexity value of 7 while the median is 1.`
 
 *Accessibility
 *I confirmed that there was sufficient contrast between the background colour and font colour to make it easy to read
